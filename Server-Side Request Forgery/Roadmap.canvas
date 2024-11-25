@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"2e75fee0872f5048","type":"text","text":"Is a cloud metadata server accessible?","x":-240,"y":-100,"width":260,"height":100},
+		{"id":"051f30cefc4ead88","type":"text","text":"Start Here","x":-580,"y":-80,"width":160,"height":60},
+		{"id":"b02ff5f57f37626a","type":"text","text":"Can you scan internal hosts or local ports?","x":220,"y":-100,"width":280,"height":100},
+		{"id":"23645ab4dd136a07","type":"text","text":"Default","x":720,"y":-100,"width":260,"height":100},
+		{"id":"976f7d3b694ab8f7","x":-310,"y":220,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Server-Side Request Forgery/Impact Techniques/Exfiltrate Cloud Metadata.md"},
+		{"id":"a593830b28b2716e","x":160,"y":220,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Server-Side Request Forgery/Impact Techniques/Identify Active Internal Services.md"},
+		{"id":"bf0010a72a1e2b28","x":650,"y":220,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Server-Side Request Forgery/Impact Techniques/Infer Data from Server Request.md"}
+	],
+	"edges":[
+		{"id":"9a3fbef4d2bb03fb","fromNode":"051f30cefc4ead88","fromSide":"right","toNode":"2e75fee0872f5048","toSide":"left"},
+		{"id":"03544cb9258c36ec","fromNode":"2e75fee0872f5048","fromSide":"right","toNode":"b02ff5f57f37626a","toSide":"left","label":"No"},
+		{"id":"31eb123a7ef0c929","fromNode":"b02ff5f57f37626a","fromSide":"right","toNode":"23645ab4dd136a07","toSide":"left","label":"No"},
+		{"id":"978fadfb7b510fff","fromNode":"b02ff5f57f37626a","fromSide":"bottom","toNode":"a593830b28b2716e","toSide":"top","label":"Yes"},
+		{"id":"4ab84c26cce23180","fromNode":"2e75fee0872f5048","fromSide":"bottom","toNode":"976f7d3b694ab8f7","toSide":"top","label":"Yes"},
+		{"id":"4b0c2aae6581c2b9","fromNode":"23645ab4dd136a07","fromSide":"bottom","toNode":"bf0010a72a1e2b28","toSide":"top"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"2e75fee0872f5048","type":"text","text":"Does the redirection URL include sensitive GET parameters?","x":-240,"y":-100,"width":260,"height":100},
+		{"id":"051f30cefc4ead88","type":"text","text":"Start Here","x":-580,"y":-80,"width":160,"height":60},
+		{"id":"b02ff5f57f37626a","type":"text","text":"Can you steal client-side HTML styling from the target application?","x":220,"y":-100,"width":280,"height":100},
+		{"id":"23645ab4dd136a07","type":"text","text":"Default","x":720,"y":-100,"width":260,"height":100},
+		{"id":"e31133039559a6c1","x":-310,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Exfiltrate Sensitive GET Parameters.md"},
+		{"id":"5f86981cd5b7be6f","x":160,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Build Phishing Lookalike with HTML Styling.md"},
+		{"id":"7faf5e1a490dc8a5","x":650,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Build Generic Phishing Page.md"}
+	],
+	"edges":[
+		{"id":"9a3fbef4d2bb03fb","fromNode":"051f30cefc4ead88","fromSide":"right","toNode":"2e75fee0872f5048","toSide":"left"},
+		{"id":"03544cb9258c36ec","fromNode":"2e75fee0872f5048","fromSide":"right","toNode":"b02ff5f57f37626a","toSide":"left","label":"No"},
+		{"id":"31eb123a7ef0c929","fromNode":"b02ff5f57f37626a","fromSide":"right","toNode":"23645ab4dd136a07","toSide":"left","label":"No"},
+		{"id":"78f593a69f40c750","fromNode":"2e75fee0872f5048","fromSide":"bottom","toNode":"e31133039559a6c1","toSide":"top","label":"Yes"},
+		{"id":"1fb9fe5a1c4cd1e3","fromNode":"b02ff5f57f37626a","fromSide":"bottom","toNode":"5f86981cd5b7be6f","toSide":"top","label":"Yes"},
+		{"id":"5f0ef8b7b7c1e2c1","fromNode":"23645ab4dd136a07","fromSide":"bottom","toNode":"7faf5e1a490dc8a5","toSide":"top"}
+	]
+}

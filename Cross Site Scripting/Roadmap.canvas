@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"e49dcd61f2733bc2","type":"text","text":"Default","x":500,"y":-180,"width":250,"height":60},
+		{"id":"a7b82aa4e70d0fc6","type":"text","text":"Does the application perform other sensitive operations?","x":0,"y":-200,"width":250,"height":100},
+		{"id":"4e62a618f456dd61","type":"text","text":"Is HttpOnly disabled for the primary session token?","x":-1065,"y":-200,"width":250,"height":100},
+		{"id":"fc45dfe4c238346f","type":"file","file":"ProdSec/Impact Roadmaps/Cross Site Scripting/Impact Techniques/Session Token Exfiltration.md","x":-1140,"y":100,"width":400,"height":400},
+		{"id":"b092e39b732bbd2d","type":"text","text":"Can your XSS payload access sensitive client-side HTML?","x":-520,"y":-200,"width":250,"height":100},
+		{"id":"66d29802dc7882cf","type":"file","file":"ProdSec/Impact Roadmaps/Cross Site Scripting/Impact Techniques/Modify Client-Side HTML.md","x":-595,"y":100,"width":400,"height":400},
+		{"id":"6271dcbc59c6a8e9","type":"text","text":"Start Here","x":-1440,"y":-180,"width":160,"height":60},
+		{"id":"112103719140e61a","type":"file","file":"ProdSec/Impact Roadmaps/Cross Site Scripting/Impact Techniques/Session Hijacking.md","x":-75,"y":100,"width":400,"height":400},
+		{"id":"d99dd991375b2903","type":"file","file":"ProdSec/Impact Roadmaps/Cross Site Scripting/Impact Techniques/Embed Malicious Content.md","x":425,"y":100,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"b9d637bb0edf710b","fromNode":"4e62a618f456dd61","fromSide":"bottom","toNode":"fc45dfe4c238346f","toSide":"top","label":"Yes"},
+		{"id":"de0e2e1760c9865e","fromNode":"b092e39b732bbd2d","fromSide":"bottom","toNode":"66d29802dc7882cf","toSide":"top","label":"Yes"},
+		{"id":"507951796e8e995a","fromNode":"4e62a618f456dd61","fromSide":"right","toNode":"b092e39b732bbd2d","toSide":"left","label":"No"},
+		{"id":"2cd0d2d066b928d4","fromNode":"6271dcbc59c6a8e9","fromSide":"right","toNode":"4e62a618f456dd61","toSide":"left"},
+		{"id":"5831bc40d3848bd4","fromNode":"b092e39b732bbd2d","fromSide":"right","toNode":"a7b82aa4e70d0fc6","toSide":"left","label":"No"},
+		{"id":"678e7d9c6465a977","fromNode":"a7b82aa4e70d0fc6","fromSide":"bottom","toNode":"112103719140e61a","toSide":"top","label":"Yes"},
+		{"id":"5d2376598a0cb6ae","fromNode":"a7b82aa4e70d0fc6","fromSide":"right","toNode":"e49dcd61f2733bc2","toSide":"left","label":"No"},
+		{"id":"9d78bc12a2a40214","fromNode":"e49dcd61f2733bc2","fromSide":"bottom","toNode":"d99dd991375b2903","toSide":"top"}
+	]
+}
