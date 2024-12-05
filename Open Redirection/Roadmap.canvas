@@ -4,9 +4,9 @@
 		{"id":"051f30cefc4ead88","type":"text","text":"Start Here","x":-580,"y":-80,"width":160,"height":60},
 		{"id":"b02ff5f57f37626a","type":"text","text":"Can you steal client-side HTML styling from the target application?","x":220,"y":-100,"width":280,"height":100},
 		{"id":"23645ab4dd136a07","type":"text","text":"Default","x":720,"y":-100,"width":260,"height":100},
-		{"id":"e31133039559a6c1","x":-310,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Exfiltrate Sensitive GET Parameters.md"},
-		{"id":"5f86981cd5b7be6f","x":160,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Build Phishing Lookalike with HTML Styling.md"},
-		{"id":"7faf5e1a490dc8a5","x":650,"y":200,"width":400,"height":400,"type":"file","file":"ProdSec/Impact Roadmaps/Open Redirection/Impact Techniques/Build Generic Phishing Page.md"}
+		{"id":"e31133039559a6c1","type":"file","file":"Open Redirection/Impact Techniques/Exfiltrate Sensitive GET Parameters.md","x":-310,"y":200,"width":400,"height":400},
+		{"id":"5f86981cd5b7be6f","type":"file","file":"Open Redirection/Impact Techniques/Build Phishing Lookalike with HTML Styling.md","x":160,"y":200,"width":400,"height":400},
+		{"id":"7faf5e1a490dc8a5","type":"file","file":"Open Redirection/Impact Techniques/Build Generic Phishing Page.md","x":650,"y":200,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"9a3fbef4d2bb03fb","fromNode":"051f30cefc4ead88","fromSide":"right","toNode":"2e75fee0872f5048","toSide":"left"},
